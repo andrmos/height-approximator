@@ -17,6 +17,9 @@ public interface Presenter {
      */
     void onButtonReleased();
 
+
+    double getHeight();
+
     // TODO: 29.05.2016 Add activity lifecycle methods.
 
 }
