@@ -8,9 +8,14 @@ package com.mossige.andre.heightapproximator.interfaces;
 public interface Presenter {
 
     /**
-     * Called when the button that interacts with the approximator is clicked.
+     * Called when the button that interacts with the approximator is pressed.
      */
-    void onButtonClicked();
+    void onButtonPressed();
+
+    /**
+     * Called when the button that interacts with the approximator is released.
+     */
+    void onButtonReleased();
 
     // TODO: 29.05.2016 Add activity lifecycle methods.
 
